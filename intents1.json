@@ -1,0 +1,36 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+    "responses": ["Hello, thanks for visiting", "Good to see you again", "Greeting"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day"]
+  },
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Appreciate it"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You're Welcome"]
+  },
+  {"tag": "prevention",
+    "patterns": ["How to prevent skin cancer?", "Skin cancer prevention"],
+    "responses": ["Stay in the shade.\nWear clothing that covers your arms and legs.\nWear a hat with a wide brim to shade your face, head, ears, and neck.\nWear sunglasses that wrap around and block both UVA and UVB rays.\nUse a broad spectrum sunscreen with a sun protection factor (SPF) of 15 or higher.\nAvoiding tanning and indoor tanning bed."]
+  },
+  {"tag": "screening",
+    "patterns": ["Are there screening test for skin cancer?", "Are there screening test?"],
+    "responses": ["The U.S. Preventive Services Task Force (USPSTF) has concluded there is not enough evidence to recommend for or against routine screening (total body examination by a doctor) to find skin cancers early. This recommendation is for people who do not have a history of skin cancer and who do not have any suspicious moles or other spots. Report any unusual moles or changes in your skin to your doctor. Also talk to your doctor if you are at increased risk of skin cancer."]
+  },
+  {"tag": "forgotaccount",
+    "patterns": ["i forgot my password", "i forgot my username"],
+    "responses": ["(link to reset password/username page)"]
+  },
+  {"tag": "cancerType",
+    "patterns": ["How many type of skin cancer are there?", "Types of skin cancer", "What are the types of skin cancer?"],
+    "responses": ["There are three major types of skin cancer: Basal Cell Carcinoma, Squamous Cell Carcinoma and Melanoma.\nPlease refer to this article for more information: https://www.cancer.org/cancer/skin-cancer.html"]
+  },
+  {"tag": "tips",
+    "patterns": ["How to tell if i have skin cancer?", "What are the sign of skin cancer?", "Signs of skin cancer", "What are the symptoms?"],
+    "responses": ["Redness or new swelling beyond the border of a mole.\nColor that spreads from the border of a spot into surrounding skin.\nItching, pain, or tenderness in an area that doesn't go away or goes away then comes back.\nChanges in the surface of a mole: oozing, scaliness, bleeding, or the appearance of a lump or bump.\nPlease refer to this article for more information: https://www.cancer.org/latest-news/how-to-spot-skin-cancer.html"]
+  }
+]
+}
